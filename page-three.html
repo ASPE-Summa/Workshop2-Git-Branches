@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
 </head>
 
@@ -18,11 +19,10 @@
         </ul>
     </nav>
     <article class="col-md-12">
-        <p>
-            <span class="lead">Under construction. This page will be made soon.</span><br/>
-            I'm not going to tell you where to find the third letter on this branch.
-            You'd better check out the third-letter branch for that.
+        <p id="textcontainer">
+            The third and final letter is hidden on this page. Hit the button to make it more obvious.
         </p>
+        <button onclick="revealLetter()" style="float:left;">Reveal</button>
     </article>
     <footer class="footer mt-auto py-3 bg-dark">
         <div class="container">
